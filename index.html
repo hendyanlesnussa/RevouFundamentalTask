@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+     <!-- Fonts -->
+     <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="CSS/index.css">
+
+    <title>Revou Task</title>
+
+  </head>
+
+  
+
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brands" href="#">
+            <img src="Asset/logo.png" width="50" height="50" alt="RevoU">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Our profile.html">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#Headquarter">Our Headquarter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Home -->
+    <div class="jumbotron">
+      <div class="container container-fluid">
+        <div class="container">
+          <div class="row justify-content-start">
+            <h1 class="display-4">Hi <span id="nama"></span>, Welcome to <span>My Website</span>!</h1>
+            <h5>This My Website for Mini Coding Project Assignment in RevoU Fundamental Course : Software Engineering</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Home -->
+
+    <!-- Validate JS -->
+    <script>
+      var nama = prompt ("Silahkan masukan nama Anda");
+      document.getElementById("nama").innerText = nama;
+    </script>
+    <!-- End Validate JS -->
+
+    <!-- Our Headquarter -->
+
+    <section id="Headquarter" class="container">
+      <div class="row text-center Headquarter">
+        <div class="col-12 p-4">
+          <h2 class="display-4"><span>Our </span>Headquarter</h2>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="city">
+            <img src="Asset/jakarta.jpg" alt="">
+              <h2 class="city-title">Jakarta</h2>            
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="city">
+            <img src="Asset/Bandung.jpg" alt="">           
+              <h2 class="city-title">Bandung</h2>           
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="city">
+            <img src="Asset/Surabaya.jpg" alt="">            
+              <h2 class="city-title">Surabaya</h2>         
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Our Headquarter -->
+
+    <!-- footer -->
+
+    <footer>
+      <div class="col-12 footer">
+        <div class="text-center">
+        <p class="mb-10 text-center copy">&copy;Copyright<i> RevoU</i> 2023. All right reserved.</p>
+      </div>
+    </footer>
+
+    <!-- akhir footer -->
+    
+  </body>
+
+
+
+
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

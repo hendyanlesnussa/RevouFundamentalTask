@@ -1,0 +1,104 @@
+/* Navbar */
+
+.navbar {
+    background-color: #dbe4e8;
+}
+
+.nav-item {
+    font-family: viga;
+}
+
+/* Home */
+
+.jumbotron {
+    background-image: url(/Asset/logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    height: 520px;
+    text-align: center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .display-4 {
+    font-family: viga;
+    color:#fff;
+    margin-top:75px ;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 100;
+    color: #E5C08A;
+    margin-bottom: 30px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+}
+
+.jumbotron .display-4 span {
+    font-family: viga;
+    font-weight: 900;
+    color: #D37B6F;
+}
+
+.jumbotron h5 {
+    font-family: viga;
+    color: #E5C08A;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Headquarter */
+
+section .Headquarter h2 {
+    font-family: viga;
+    margin: 50px ;
+    font-weight: 100;
+    color: #D37B6F;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    
+}
+
+section .Headquarter .display-4 span {
+    font-weight: 500;
+    color: #E5C08A;
+}
+
+section .city img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    filter: brightness(120%);
+    filter: contrast(120%);
+    filter: drop-shadow(10px 10px 10px rgb(112, 123, 124));
+}
+
+section .city .city-title {
+    color: #E5C08A;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    margin: 50px;
+}
+
+/* footer */
+
+.footer {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #dbe4e8;
+  color: #270101;
+  margin-top: 50px;
+  font-weight: 400;
+}
+
+.footer .copy {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* desktop version */
+
+@media (min-width: 992px) {
+
+    .jumbotron {
+        background-image: url(/Asset/dua.png);
+        height: 650px;
+    }
+    
+}
