@@ -5,3 +5,8 @@
 
 /* Our Profile */
 ![image](https://user-images.githubusercontent.com/99755547/220793286-542f2fb4-30b7-47e7-80f9-cfb3f77e1b88.png)
+
+
+/* Notes */
+
+After deploying, it turns out that the Home and Profile backgrounds don't appear, while the directories are correct. So the screenshots attached are the results of the deployment that should have happened. Thank You
