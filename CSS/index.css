@@ -97,7 +97,7 @@ section .city .city-title {
 @media (min-width: 992px) {
 
     .jumbotron {
-        background-image: url(/Asset/dua.png);
+        background-image: url(../Asset/dua.png);
         height: 650px;
     }
     
